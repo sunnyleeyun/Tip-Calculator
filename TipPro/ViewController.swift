@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipSelector: UISegmentedControl!
     @IBOutlet weak var tipAmountField: UITextField!
     @IBOutlet weak var totalAmountField: UITextField!
+    
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
  
 
     override func viewDidLoad() {
