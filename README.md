@@ -1,2 +1,2 @@
 # Tip-Calculator
- practice
+ practice only
